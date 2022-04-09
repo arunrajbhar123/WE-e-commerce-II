@@ -1,0 +1,35 @@
+select,
+option {
+    cursor: pointer;
+}
+
+form {
+    padding: 32px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 1px 1px 12px 1px rgb(221, 216, 216);
+    margin-top: 35px;
+}
+
+a {
+    padding: 12px;
+    background-color: rgb(218, 211, 211);
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#adminpanel {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+input {
+    height: 35px;
+    width: 100%;
+}
+
+.sold input {
+    height: 35px;
+    width: 10%;
+}

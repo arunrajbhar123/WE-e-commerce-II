@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin access</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="/New folder/product.html">Go product</a>
+
+    <form onsubmit="storeProducts(event)" id="adminpanel">
+        <div class="product">
+            <label>Product Name</label><br>
+            <input type="text" id="name">
+        </div>
+        <div class="category">
+            <label for="">Category</label><br>
+            <input type="text" id="category">
+        </div>
+        <div class="img">
+            <label for="">Image url</label><br>
+            <input type="text" id="image">
+        </div>
+        <div class="price">
+            <label for="">Price</label><br>
+            <input type="number" id="price">
+        </div>
+        <div class="gender">
+            <label for="">Gender</label><br>
+            <select name="" id="gender">
+            <option value=""selected="true" disabled="disabled" >---</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="sold">
+            <label for="sold">Sold</label><br>
+            <input type="checkbox" id="sold">
+        </div>
+        <div class="submit">
+            <input type="submit" id="add">
+        </div>
+    </form>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</body>
+
+</html>
