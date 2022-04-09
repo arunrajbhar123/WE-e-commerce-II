@@ -53,7 +53,6 @@ function changethetext(el, i) {
     }
     var update = JSON.parse(localStorage.getItem("Products"));
     update[i].sold = change;
-    console.log(update);
     localStorage.setItem("Products", JSON.stringify(update));
     window.location.reload();
 }
